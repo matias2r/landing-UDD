@@ -1,0 +1,38 @@
+:root {
+    --background-color: rgb(228, 228, 228);
+
+
+    --primary-color: #1d0b41;
+    --second-color: #31146b;
+
+    --text-title-color: #31146b;
+    --text-description-color: #313131;
+
+    --text-color-dark: #313131;
+    --text-color: rgb(241, 241, 241);
+    --text-hover: rgb(68, 216, 209);
+
+
+    --input-form: #cccccc;
+    --button-color: #6778da;
+
+
+    --background-cart: #fff;
+    --shadow-cart: rgba(0, 0, 0, 0.26);
+    --shadow-cart-hover: rgba(0, 0, 0, 0.356);
+
+    --black-color: black;
+
+
+    --price-color2: #888888;
+    --button-cart: #343a40;
+
+    --copy: #d633a0;
+
+    body {
+        background-color: var(--background-color);
+        padding: 0;
+        margin: 0;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+    }
+}

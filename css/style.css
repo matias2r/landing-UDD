@@ -1,0 +1,302 @@
+@import url(./variables.css);
+
+
+header{
+    width: 100%;
+
+    padding: 4rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--primary-color);
+
+
+    width: 100%;
+    padding: 1.5rem;
+
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    font-family: system-ui;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.enlaces{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.enlaces a:hover{
+    color: var(--text-hover);
+}
+
+.col{
+    padding-top: 3rem;
+}
+
+.informacion-producto {
+    padding-top: 3rem;
+}
+
+
+.presentacion-producto span {
+    padding: .4rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color); 
+    background-color: var(--primary-color);
+}
+
+.presentacion-producto h2 {
+    padding-top: 1rem;
+    font-weight: 800;
+    text-align: start;
+    color: var(--text-title-color);
+}
+
+
+.presentacion-producto p {
+    padding-top: 1.4rem;
+    text-align: justify;
+    font-weight: 500;
+    display: inline-block;
+    color: var(--text-description-color);
+}
+
+.presentacion-producto img {
+    margin-top: 2rem;
+    transition: 1s;
+    border-radius: 1rem;
+    box-shadow: 1px 0px 10px var(--black-color);
+}
+
+.presentacion-producto img:hover {
+    transform: scale(1.1);
+}
+
+
+.formulario input, button{
+    border: none;
+    padding: .5rem 2rem;
+}
+
+.formulario input {
+    background-color: var(--input-form);
+    color: var(--text-color-dark);
+}
+
+.formulario input::placeholder {
+    color: var(--text-color-dark);
+}
+
+
+.formulario button {
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--button-color);
+    transition: .6s;
+}
+
+.formulario button:hover {
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+
+.gracias {
+    font-size: 14px;
+}
+
+.titulo-catalogo {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los productos horizontalmente */
+    gap: 10px; /* Espacio entre los productos */
+    margin: 1rem 3rem;
+    margin-bottom: 10rem;
+}
+
+.producto {
+    width: 300px;
+    background-color: var(--background-cart);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    transition: .2s;
+    box-shadow: 0 1px 8px var(--shadow-cart);
+}
+
+.producto:hover {
+    box-shadow: 1px 5px 10px 0px var(--shadow-cart-hover);
+}
+
+/* El resto de tu CSS permanece igual */
+.descripcion-producto {
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo-productos {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    width: 50%;
+    margin: 50px auto;
+}
+
+.marca-producto {
+    font-size: 13px;
+}
+
+.titulo-producto {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.id-producto {
+    font-size: 11px;
+    color: var(--price-color2);
+}
+
+.stock-producto {
+    padding-left: 109px;
+    font-size: 11px;
+    color: var(--price-color2);
+}
+
+.dcto-producto {
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color);
+    background-color: var(--button-color);
+}
+
+.precios {
+    padding-top: 1rem;
+}
+
+.precio-producto {
+    font-size: 15px;
+    color: var(--price-color2);
+    text-decoration: line-through;
+}
+
+.total-producto {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.trans {
+    font-size: 11px;
+    color: var(--primary-color);
+}
+
+.total-otros {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--price-color2);
+}
+
+.boton-carrito {
+    color: var(--text-color);
+    background-color: var(--button-cart);
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.boton-carrito:hover {
+    color: var(--text-color);
+    background-color: var(--button-color);
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+}
+
+footer h2 {
+    text-align: start;
+    color: var(--text-color);
+}
+
+.footer-navegacion li {
+    text-align: start;
+    list-style: none;
+}
+
+.footer-navegacion a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-redes {
+    text-align: start;
+}
+
+.footer-redes a {
+    margin: .3rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.copy {
+    padding: 1rem;
+    font-size: 12px;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--button-cart);
+}
+
+.copy a{
+    font-weight: 700;
+    color: var(--copy);
+    text-decoration: none;
+}
