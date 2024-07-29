@@ -136,8 +136,8 @@ nav {
 .productos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centra los productos horizontalmente */
-    gap: 10px; /* Espacio entre los productos */
+    justify-content: center;
+    gap: 10px;
     margin: 1rem 3rem;
     margin-bottom: 10rem;
 }
@@ -157,7 +157,6 @@ nav {
     box-shadow: 1px 5px 10px 0px var(--shadow-cart-hover);
 }
 
-/* El resto de tu CSS permanece igual */
 .descripcion-producto {
     text-align: start;
     padding: 0;
