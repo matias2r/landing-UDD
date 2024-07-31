@@ -2,7 +2,7 @@
 
 
 header{
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
 }
 
 nav {
@@ -45,9 +45,12 @@ nav {
 }
 
 .informacion-producto {
-    padding-top: 3rem;
+    padding-bottom: 8rem;
 }
 
+.presentacion-producto {
+    padding-bottom: 5rem;
+}
 
 .presentacion-producto span {
     padding: .4rem 1rem;
@@ -124,6 +127,7 @@ nav {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    color: var(--text-title-color);
 }
 
 .productos {
